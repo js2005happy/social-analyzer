@@ -1,7 +1,7 @@
 {
   "name": "social-analyzer-windows",
-  "version": "2.0.32",
-  "description": "Advanced Social Media Profiles Finder and String Analysis Tool",
+  "version": "2.0.33",
+  "description": "Windows-compatible fork of qeeqbox/social-analyzer — Advanced Social Media Profiles Finder and String Analysis Tool",
   "main": "app.js",
   "engines": {
     "node": ">=20.18.1"
@@ -39,11 +39,19 @@
     "wordsninja": "1.0.0",
     "yargs": "17.5.1"
   },
-  "author": "QeeqBox",
+  "author": {
+    "name": "QeeqBox (original), js2005happy (Windows fork)"
+  },
+  "contributors": [
+    {
+      "name": "QeeqBox",
+      "url": "https://github.com/qeeqbox/social-analyzer"
+    }
+  ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qeeqbox/social-analyzer"
+    "url": "https://github.com/js2005happy/social-analyzer"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
